@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BRKLIVE19 Football Overlay Studio</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#0b1220;color:#eef4ff;font:16px Arial,sans-serif;display:grid;place-items:center;min-height:100vh;padding:24px}
+main{max-width:850px;width:100%;background:#121e31;border:1px solid #2a3b55;border-radius:22px;padding:30px;box-shadow:0 20px 70px #0008}
+h1{margin:0 0 8px;font-size:clamp(28px,5vw,42px)}p{color:#aebbd0;line-height:1.55}.brand{color:#58d7ff;font-weight:800;letter-spacing:2px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:25px}
+a{display:block;text-decoration:none;color:inherit;background:#1b2b43;border:1px solid #344d6c;border-radius:16px;padding:22px;transition:.2s}
+a:hover{transform:translateY(-3px);border-color:#58d7ff;background:#203752}
+a strong{display:block;font-size:20px;margin-bottom:8px}small{color:#afc0d7}
+.note{margin-top:24px;padding:14px 16px;border-left:3px solid #58d7ff;background:#17263b;color:#c6d5e8;border-radius:8px}
+</style></head>
+<body><main>
+<div class="brand">BRKLIVE19 LIVE STUDIO</div>
+<h1>Football Broadcast Overlay</h1>
+<p>A separate controller and transparent browser overlay for OBS, vMix or other browser-source software. Open the controller to manage match details, score, timer, cards and goal animations.</p>
+<div class="cards">
+<a href="control.html"><strong>⚙ Open Control Panel</strong><small>Enter match details and operate the live scoreboard.</small></a>
+<a href="overlay.html" target="_blank"><strong>▣ Open Overlay</strong><small>Transparent 1920 × 1080 browser overlay.</small></a>
+</div>
+<div class="note"><b>Quick setup:</b> Keep all three files in the same folder. Open <b>control.html</b>, then copy the overlay link and add it to OBS as a Browser Source. For best results set the source to 1920 × 1080.</div>
+</main></body></html>
